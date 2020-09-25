@@ -1,0 +1,78 @@
+/*comments*/
+/*
+article{
+	color: blue;
+}
+
+#promo {
+	color:red;
+}
+
+.blue{
+	color:aqua;
+}
+.center{
+	text-align: center;
+}
+
+a[href='http://www.delfi.lt']{
+	color:black;
+}
+
+a[href$=".docx"]{
+	color:red;
+}
+a[href$=".xlsx"]{
+	color:green;
+}
+a:hover{
+	color: silver;
+}
+/*
+.todo ul :nth-child(2n+1){
+	color: red;
+}
+*/
+/*
+.todo ul li{
+	color: black;
+}
+.todo ul>li>ul>li{
+	color: silver;
+}
+*/
+body{
+	background: #eee url("../img/2.jpg");
+	background-size: contain;
+}
+section{
+	background-color: rgba(97, 107, 120, 0.3);
+	padding: 20px;
+}
+
+section h2{
+	color: #3269a8;
+	font-size: 2.2em;
+	font-family: "Roboto", sans-serif;
+	text-decoration: underline;
+}
+
+section p{
+	color: silver;
+	font-size: 1em;
+	font-family: "Ubuntu", sans-serif;
+}
+section p span{
+	color: #a3225c;	
+	font-style: italic;
+	text-transform: uppercase;
+}
+table{
+	width: 100px;
+	border-collapse: collapse;
+}
+th,td{
+	border: 1px solid #000;
+	text-align: left;
+	padding: 8px;
+}
